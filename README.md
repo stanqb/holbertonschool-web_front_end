@@ -1,42 +1,26 @@
-# HTML Advanced Project
+# Web Front-End
 
-## Description
-This project focuses on creating a comprehensive HTML structure for Techium, a digital agency website, following HTML5 best practices without CSS styling. It implements a responsive and semantic webpage structure using modern HTML5 tags.
+## Overview
+This repository contains all projects and exercises completed during the Web Front-End specialization at Holberton School. It covers the fundamentals and advanced techniques of client-side web development.
 
 ## Learning Objectives
-- Follow HTML guidelines and best practices
-- Create a proper HTML5 page skeleton
-- Use semantic HTML tags effectively (header, main, footer, section, article, nav, etc.)
-- Understand when to use div vs span
-- Create proper heading hierarchy
-- Make structured lists and tables
-- Embed multimedia content (images, videos, audio)
-- Create forms and form controls
+- Master HTML5 and semantic web structure creation
+- Learn CSS3 and responsive design techniques
+- Understand accessibility principles and user experience
+- Develop skills in JavaScript for interactive web pages
+- Explore popular front-end frameworks and libraries
 
 ## Technologies
 - HTML5
-- W3C Compliance
-
-## Structure
-The project builds a complete website with multiple pages:
-- Homepage
-- About page
-- Latest news page
-- Contact page
-- Styleguide page
-
-## Features
-- Semantic HTML structure
-- Proper heading hierarchy
-- Navigation menus
-- Social media links
-- Responsive image integration
-- Multimedia elements (video, audio)
-- Tables and data organization
-- Embedded content using iframes
-
-## Licence
-- Holberton School
+- CSS3
+- JavaScript
+- Responsive design
+- Web standards and best practices
 
 ## Author
+
 - Stan QUEUNIEZ
+
+## Licence
+
+- Holberton School
