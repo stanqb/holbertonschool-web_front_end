@@ -96,7 +96,7 @@ All HTML and CSS must pass W3C validation without errors.
 - Follow the end goal visual design provided in the project description
 
 ## Licence 
--Holberton School
+- Holberton School
 
 ## Authors 
 - Stan QUEUNIEZ
