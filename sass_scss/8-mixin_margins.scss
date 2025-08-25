@@ -1,0 +1,13 @@
+/* Margin mixin task */
+@mixin margin-horizontal($margin) {
+    margin-left: $margin;
+    margin-right: $margin;
+  }
+  
+  body {
+    @include margin-horizontal(10px);
+  }
+  
+  div {
+    @include margin-horizontal(15px);
+  }
