@@ -1,7 +1,7 @@
 /* For each loop task */
-@use '11-photos';
+$list-names: julien john sam damian;
 
-@each $name in photos.$list-names {
+@each $name in $list-names {
   .photo-#{$name} {
     background: image-url("photos/#{$name}.jpg") no-repeat;
   }
