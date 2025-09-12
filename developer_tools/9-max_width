@@ -1,1 +1,3 @@
-Max-width: 1140px;
+body {
+	max-width: 1140px;
+}
