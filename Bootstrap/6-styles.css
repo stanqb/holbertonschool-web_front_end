@@ -1,0 +1,62 @@
+/* Primary button - Holberton red */
+.btn-primary {
+    background-color: #E0003C;
+    border-color: #E0003C;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #BC1340;
+    border-color: #BC1340;
+}
+
+/* Outline primary button - Holberton red */
+.btn-outline-primary {
+    color: #E0003C;
+    border-color: #E0003C;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+    background-color: #E0003C;
+    border-color: #E0003C;
+    color: white;
+}
+
+/* Links - Holberton red */
+a {
+    color: #E0003C;
+}
+
+a:hover,
+a:focus {
+    color: #E0003C;
+}
+
+/* Cards - Holberton red border and rounded corners */
+.card {
+    border-color: #E0003C;
+    border-radius: 1rem;
+}
+
+.card-header,
+.card-footer {
+    border-color: #E0003C;
+}
+
+.card-header {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.card-footer {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+/* Text muted - custom gray */
+.text-muted {
+    color: #8C8C8C !important;
+}
