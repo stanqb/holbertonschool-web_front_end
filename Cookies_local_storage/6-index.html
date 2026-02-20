@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <script>
+      var availableItems = ['Shampoo', 'Soap', 'Sponge', 'Water'];
+
+      if (!window.sessionStorage) {
+        alert('Sorry, your browser does not support Web storage. Try again with a better one');
+      } else {
+        createStore();
+        displayCart();
+      }
+
+      function addItemToCart(item) {
+        sessionStorage.setItem(item, true);
+        displayCart();
+      }
+
+      function createStore() {
+        var ul = document.createElement('ul');
+        document.body.appendChild(ul);
+        for (var i = 0; i < availableItems.length; i++) {
+          var li = document.createElement('li');
+          li.innerHTML = availableItems[i];
+          li.onclick = (function (item) {
+            return function () {
+              addItemToCart(item);
+            };
+          })(availableItems[i]);
+          ul.appendChild(li);
+        }
+      }
+
+      function displayCart() {
+        var existingP = document.getElementById('cart-message');
+        if (existingP) {
+          existingP.remove();
+        }
+        var count = sessionStorage.length;
+        if (count === 0) {
+          return;
+        }
+        var p = document.createElement('p');
+        p.id = 'cart-message';
+        p.innerHTML = 'You previously had ' + count + ' items in your cart';
+        document.body.appendChild(p);
+      }
+    </script>
+  </body>
+</html>
